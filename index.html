@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Journey ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="app"> <!-- HERO -->
+        <section class="hero">
+            <div class="plane">✈️</div>
+            <p class="small-text"> A little something for </p>
+            <h1>Sudeshna ❤️</h1>
+            <p> Before you continue... there's something I want you to remember. </p> <button id="startButton"> Start
+                Our Journey </button>
+        </section> <!-- TRAVEL COUNTER -->
+        <section id="journey" class="section">
+            <p class="small-text">OUR JOURNEY</p>
+            <h2>We've come a long way...</h2>
+            <div class="counter">
+                <div class="counter-box"> <span id="countryCount">100+</span> <small>Countries</small> </div>
+                <div class="counter-box"> <span>✈️</span> <small>Adventures</small> </div>
+                <div class="counter-box"> <span>∞</span> <small>Memories</small> </div>
+            </div>
+        </section> <!-- PHOTO -->
+        <section class="section photo-section">
+            <p class="small-text">ONE OF MY FAVOURITE THINGS</p>
+            <h2>Having you beside me.</h2>
+            <div class="photo-container">
+                <div>
+                    <img
+                        src="images/us.jpeg"
+                        alt="Ranjit and Sudeshna"
+                    >
+                </div>
+            </div>
+
+                <!-- OUR WORLD -->
+
+        <section class="section world-section">
+
+            <p class="small-text">OUR WORLD</p>
+
+            <h2>100 countries. Countless memories. 🌎</h2>
+
+            <p>
+                Every country gave us a story.
+                Here are a few of my favourites.
+            </p>
+
+            <div class="country-grid">
+
+                <!-- CHINA -->
+            
+                <button
+                    class="country-card"
+                    data-country="China"
+                    data-memory="One of our favourites — and somehow, also our next adventure. There is still so much of China waiting for us to discover together."
+                    data-photo="images/china.jpg"
+                    data-date="Our next adventure"
+                    data-number="Next">
+            
+                    <img src="images/china.jpg" alt="China">
+            
+                    <div class="country-info">
+            
+                        <strong>🇨🇳 China</strong>
+            
+                        <span>Our favourite & our next adventure</span>
+            
+                    </div>
+            
+                </button>
+            
+            
+                <!-- NEW ZEALAND -->
+            
+                <button
+                    class="country-card"
+                    data-country="New Zealand"
+                    data-memory="Raw nature, endless landscapes and one of the most beautiful road trips we've ever done. Renting a car and simply driving through New Zealand made this journey unforgettable."
+                    data-photo="images/new-zealand.jpeg"
+                    data-date="One of our favourite road trips"
+                    data-number="Favourite">
+            
+                    <img src="images/new-zealand.jpeg" alt="New Zealand">
+            
+                    <div class="country-info">
+            
+                        <strong>🇳🇿 New Zealand</strong>
+            
+                        <span>Raw nature & the perfect road trip</span>
+            
+                    </div>
+            
+                </button>
+            
+            
+                <!-- THAILAND -->
+            
+                <button
+                    class="country-card"
+                    data-country="Thailand"
+                    data-memory="Our all-time favourite. This is where the first real thought of travelling the world began — a simple idea that eventually became our life."
+                    data-photo="images/thailand.jpeg"
+                    data-date="Where it all began"
+                    data-number="The Beginning">
+            
+                    <img src="images/thailand.jpeg" alt="Thailand">
+            
+                    <div class="country-info">
+            
+                        <strong>🇹🇭 Thailand</strong>
+            
+                        <span>Where our world-travel dream began</span>
+            
+                    </div>
+            
+                </button>
+            
+            
+                <!-- CANADA -->
+            
+                <button
+                    class="country-card"
+                    data-country="Canada"
+                    data-memory="The country that made all of this possible. It gave us the opportunity to build a life that eventually allowed us to leave everything behind and see the world. And it is beautiful in its own way."
+                    data-photo="images/canada.jpeg"
+                    data-date="The country that made it possible"
+                    data-number="Home">
+            
+                    <img src="images/canada.jpeg" alt="Canada">
+            
+                    <div class="country-info">
+            
+                        <strong>🇨🇦 Canada</strong>
+            
+                        <span>The country that made it all happen</span>
+            
+                    </div>
+            
+                </button>
+            
+            </div>
+
+            <div id="memoryBox" class="memory-box">
+
+                <p>
+                    Tap a country to reveal a memory ❤️
+                </p>
+            
+            </div>
+        </section>    
+        </section> <!-- TIMELINE -->
+        <section class="section">
+            <p class="small-text">THE ADVENTURE</p>
+            <h2>A few chapters...</h2>
+            <div class="timeline">
+                <div class="timeline-item"> <span>🌏</span>
+                    <div>
+                        <h3>We started travelling</h3>
+                        <p> Two people deciding to leave the ordinary behind. </p>
+                    </div>
+                </div>
+                <div class="timeline-item"> <span>🎒</span>
+                    <div>
+                        <h3>We became travellers</h3>
+                        <p> Flights, buses, trains, border crossings and countless unexpected adventures. </p>
+                    </div>
+                </div>
+                <div class="timeline-item"> <span>🌎</span>
+                    <div>
+                        <h3>The world became our home</h3>
+                        <p> One country after another... and still so much left to explore. </p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- QUESTION -->
+        <section class="section question">
+            <h2>Do you know what my favourite destination is?</h2> <button id="answerButton"> Tell me ❤️ </button>
+            <p id="answer" class="hidden"> You. ❤️ </p>
+        </section> <!-- FINAL -->
+        <section id="finalMessage" class="final-message">
+            <div class="big-heart"> ❤️ </div>
+            <h2> No matter how many countries we visit... </h2>
+            <p> I would still choose you for every single journey. </p>
+            <p> The world is huge. We've seen a lot of it. But my favourite place is wherever you are. </p>
+            <div class="signature"> — Ranjit </div>
+            <p class="footer"> 🌎 ✈️ 🧳 ❤️ </p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
