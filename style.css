@@ -497,3 +497,22 @@ button:hover {
         height: 220px;
     }
 }
+
+.tap-hint {
+    margin: 20px auto 5px;
+    padding: 10px 18px;
+
+    width: fit-content;
+
+    border-radius: 30px;
+
+    background: #111f33;
+    border: 1px solid #24344b;
+
+    color: #f472b6;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+}
